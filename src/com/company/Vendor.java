@@ -21,6 +21,8 @@ public class Vendor {
             System.out.println("name: " + product.name);
             System.out.println("decription: " + product.description);
             System.out.println("price: " + product.price);
+            if(product.amountInStock > 0) System.out.println("Qty: " + product.amountInStock);
+            else System.out.println("Qty: OUT of Stock");
         }
     }
 
